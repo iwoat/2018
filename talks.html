@@ -113,16 +113,24 @@
 
                 <h3><a id="F"></a>Frequently Asked Questions</h3>
                 <p>
-                    <li>
-	    <div class="date">Jan 23 '18</div>
-	    <ul class="entry" onclick="toggleAbstract(&#39;talk_Spring 2018_0&#39;); return false;">
-	      <li><h3>Sasha Voronov<span> (University of Minnesota, Twin Cities)</span></h3></li>
-	      <li><h4>Quantum Deformation Theory</h4></li>
-	      <div class="abstract" style="display: none;" id="talk_Spring 2018_0">
-		<p>Classical deformation theory is based on the Classical Master Equation (CME), a.k.a. the Maurer-Cartan Equation: dS + 1/2 [S,S] = 0. Physicists have been using a quantized CME, called the Quantum Master Equation (QME), a.k.a. the Batalin-Vilkovisky (BV) Master Equation: dS + h \Delta S + 1/2 {S,S} = 0. The CME is defined in a differential graded (dg) Lie algebra, whereas the QME is defined in a space V[[h]] of formal power series or V((h)) of formal Laurent series with values in a dg BV algebra V. One can anticipate a generalization of classical deformation theory arising from the QME, quantum deformation theory. Quantum deformation functor and its representability will be discussed in the talk.</p>
-	      </div> 
-	    </ul>
-	  </li>
+                    <button onclick="myFunction()">Try it</button>
+
+<div id="myDIV">
+This is my DIV element.
+</div>
+
+<p><b>Note:</b> The element will not take up any space when the display property set to "none".</p>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
  
                     <li><b>What is the address of my hotel in Shenzhen?</b><br />
                    Guest House<br />
