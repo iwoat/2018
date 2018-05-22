@@ -23,6 +23,17 @@
     ================================================== -->
     <script src="js/modernizr.js"></script>
     <script src="js/pace.min.js"></script>
+    <script type="text/javascript">
+<!--
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+//-->
+</script>
 
 
 
@@ -215,7 +226,10 @@
                     <li><b>Navigation</b> (Campus Map)<br />
                         <i>PICK-UP AT HONG KONG AIRPORT ON TUES. JUNE 5:</i><br />
     
-                        <i>HONG KONG AIRPORT TO SUSTECH:</i>
+                        <i> <a href="#" onclick="toggle_visibility('foo');">HONG KONG AIRPORT TO SUSTECH:</a>
+<div id="foo">
+                        
+                       
                         The most convenient entry from Hong Kong SAR to Mainland China is through Shenzhen Bay Port.
                         To reach there, coaches and limo services are offered at the 
                         <a href="https://www.hongkongairport.com/en/transport/mainland-connection/index.page" target="_blank">
@@ -223,7 +237,7 @@
                         (Among the providers, Trans-Island is good.)
                         Once you get through the Shenzhen Bay Port,
                         take a <a href="#T" target="_blank">taxi</a> (around 30 min, 50 CNY) 
-                        from the taxi station to the <a href="#G" target="_blank">SUSTech Guest House</a>.
+                        from the taxi station to the <a href="#G" target="_blank">SUSTech Guest House</a>.<br />
                         If you plan to spend a bit of time in Hong Kong,
                         a recommended route is to take the 
                         <a href="https://www.hongkongairport.com/en/transport/to-from-airport/airport-express.page" target="_blank">Airport Express</a>
@@ -237,8 +251,8 @@
                         From there, you may go anywhere in Hong Kong by 
                         <a href="http://www.mtr.com.hk/en/customer/main/index.html" target="_blank">metro</a>, or the Kowloon area
                         itself is interesting to explore.
-                        <br />
-                        
+                        <br /></div>
+                        </i>
                         <i>SHENZHEN AIRPORT TO SUSTECH:</i><br />
                         
                         <i>SHENZHEN NORTH RAILWAY STATION TO SUSTECH:</i> A 10 minute taxi ride for around 20 CNY. 
