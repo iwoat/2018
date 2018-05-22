@@ -202,7 +202,7 @@
                          
 <!--                         <i>SHENZHEN AIRPORT:</i> Free wifi "AirportSZ" and "SZairport", log in with your boarding information.  <br />-->
                          
-                            <a onclick="toggle_visibility('q8a');"><i>HONG KONG AIRPORT</i></a><br />
+                            <a id="HK1"></a><a onclick="toggle_visibility('q8a');"><i>HONG KONG AIRPORT</i></a><br />
                             <div id="q8a" class="toshow" style="display:none">
                                 Free wifi is available. 
                                 Floor sockets are mostly available in the waiting area inside of security check; 
@@ -257,9 +257,23 @@
                 <p>
 
                     <li><b>Navigation</b> (Campus Map)<br />
-                        <i>PICK-UP AT HONG KONG AIRPORT ON TUES. JUNE 5</i><br />
+                        <a onclick="toggle_visibility('n5');"><i>PICK-UP AT HONG KONG AIRPORT ON TUES. JUNE 5</i></a><br />
+                        <div id="n5" class="toshow" style="display:none">
+                            We have made a tentative <a href="http://iwat2018.com/hkia.pdf" target="_blank">schedule</a>
+                            for everyone who signed up, and will see you at Arrivals Hall A, Group Pick-up Area 
+                            (pictures <a href="http://iwat2018.com/001.JPG" target="_blank">1</a> and 
+                            <a href="http://iwat2018.com/002.JPG" target="_blank">2</a>).<br />
+                        
+                            <a href="https://www.hongkongairport.com/en/flights/arrivals/passenger.page" 
+                               target="_blank">Here</a> is a page to keep track of your arrival.
+                            In case of a delay, <br />
+                            
+                            <a href="https://www.hongkongairport.com/en/index.page" 
+                               target="_blank">Here</a> is the airport's website. More information can be found 
+                            <a href="#HK1" target="_blank">here</a> and <a href="#HK2" target="_blank">here</a>.
+                        </div>
     
-                        <a onclick="toggle_visibility('n1');"><i>HONG KONG AIRPORT TO SUSTECH</i></a><br />
+                        <a id="HK2"></a><a onclick="toggle_visibility('n1');"><i>HONG KONG AIRPORT TO SUSTECH</i></a><br />
                         <div id="n1" class="toshow" style="display:none">
                             The most convenient entry from Hong Kong SAR to Mainland China is through Shenzhen Bay Port.
                             To reach there, coaches and limo services are offered at the 
@@ -350,8 +364,11 @@
                             Second ride (G1302) 11:22 am&ndash;7:51 pm, Guangzhou South to Shanghai Hongqiao<br />
 -->
                             <a href="http://iwat2018.com/travelers.pdf" target="_blank">Here</a> 
-                            is the list of participants for whom we have booked tickets. If you would like to join this list, 
-                            please inform <a href="mailto:shenly@mail.sustc.edu.cn">Ms. Leyuan Shen</a> by May 31.<br />
+                            is the list of participants for whom we have booked tickets.
+<!--                            If you would like to join this list, 
+                            please inform <a href="mailto:shenly@mail.sustc.edu.cn">Ms. Leyuan Shen</a> by May 31.
+-->
+                            <br />
                         
                             While wifi isn't available on the trains, sockets can be found under your seats (you may need a travel adapter).
                         </div>
