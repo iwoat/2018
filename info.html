@@ -27,10 +27,10 @@
 <!--
     function toggle_visibility(id) {
        var e = document.getElementById(id);
-       if(e.style.display == 'none')
-          e.style.display = 'block';
-       else
+       if(e.style.display == 'block')
           e.style.display = 'none';
+       else
+          e.style.display = 'block';
     }
 //-->
 </script>
@@ -227,7 +227,7 @@
                         <i>PICK-UP AT HONG KONG AIRPORT ON TUES. JUNE 5:</i><br />
     
                         <i> <a onclick="toggle_visibility('foo');">HONG KONG AIRPORT TO SUSTECH:</a></i>
-<div id="foo">
+<div id="foo" class="toshow" style="display:none">
                         
                        
                         The most convenient entry from Hong Kong SAR to Mainland China is through Shenzhen Bay Port.
